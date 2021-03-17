@@ -1,0 +1,148 @@
+.canvas {
+  margin: 40px auto;
+  width: 600px;
+  height: 800px;
+  border: 10px double black;
+  position: relative;
+  overflow: hidden;
+
+}
+.canvas .circle-1 {
+  width: 500px;
+  height: 500px;
+  background-color: #a79c8e;
+  border-radius: 250px;
+  position: absolute;
+
+}
+.canvas .circle-2 {
+  width: 450px;
+  height: 450px;
+  background-color: #fe4365;
+  border-radius: 250px;
+  position: absolute;
+
+}
+.canvas .circle-3 {
+width: 400px;
+height: 400px;
+background-color: #FDD692;
+border-radius: 200px;
+position: absolute;
+}
+.canvas .circle-4 {
+width: 350px;
+height: 350px;
+background-color: #fc9d9a;
+border-radius: 175px;
+position: absolute;
+}
+.canvas .circle-5 {
+width: 300px;
+height: 300px;
+background-color: #EC7357;
+border-radius: 150px;
+position: absolute;
+}
+.canvas .circle-6 {
+width: 250px;
+height: 250px;
+background-color: #cbe86b;
+border-radius: 125px;
+position: absolute;
+}
+.canvas .circle-7 {
+width: 200px;
+height: 200px;
+background-color: #754F44;
+border-radius: 100px;
+position: absolute;
+}
+.canvas .circle-8 {
+width: 150px;
+height: 150px;
+background-color: #CBA6C3;
+border-radius: 125px;
+position: absolute;
+}
+.canvas .circle-9 {
+width: 100px;
+height: 100px;
+background-color: #004e66;
+border-radius: 50px;
+position: absolute;
+}
+
+@media screen and (max-width: 750px) {
+  .canvas {
+    width: 300px;
+    height: 500px;
+  }
+  .canvas .circle-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #a79c8e;
+    border-radius: 100px;
+    position: absolute;
+  
+  }
+  .canvas .circle-2 {
+    width: 175px;
+    height: 175px;
+    background-color: #fe4365;
+    border-radius: 150px;
+    position: absolute;
+  
+  }
+  .canvas .circle-3 {
+  width: 150px;
+  height: 150px;
+  background-color: #FDD692;
+  border-radius: 150px;
+  position: absolute;
+
+  }
+  .canvas .circle-4 {
+  width: 125px;
+  height: 125px;
+  background-color: #fc9d9a;
+  border-radius: 125px;
+  position: absolute;
+
+  }
+  .canvas .circle-5 {
+    width: 100px;
+    height: 100px;
+    background-color: #EC7357;
+    border-radius: 100px;
+    position: absolute;
+  
+    }
+    .canvas .circle-6 {
+    width: 75px;
+    height: 75px;
+    background-color: #cbe86b;
+    border-radius: 75px;
+    position: absolute;
+  
+    }
+    .canvas .circle-7 {
+    width: 50px;
+    height: 50px;
+    background-color: #754F44;
+    border-radius: 50px;
+    position: absolute;
+  
+    }
+    .canvas .circle-8 {
+    width: 25px;
+    height: 25px;
+    background-color: #004e66;
+    border-radius: 25px;
+    position: absolute;
+  
+    }
+    .canvas .circle-9 {
+    display: none;
+    }
+}
